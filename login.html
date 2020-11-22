@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>placement cell</title>
+	<style>
+		body{
+			background-image: url('places.jpg');
+			background-size: 100% 100%;
+		}
+		.form{
+			float: left;
+
+		}
+		.image{
+			float:right;
+		}
+		
+		marquee{
+			font-family:  sans-serif;
+
+color: #F08080;
+font-size: 35px;
+		}
+		label{
+			font-family: Comic Sans MS;
+			font-size: 27px;
+		}
+	</style>
+
+</head>
+<body>
+	 <center><h1>SRI VENKATESHWARA COLLEGE OF ENGINEERING </h1></center>
+     <center><h1>PLACEMENT CELL</h1></center>
+     <marquee scrollamount="10"
+direction="left"
+behavior="scroll" >
+WELCOME TO SVCE PLACEMENT CELL...
+</marquee>
+<table class="form">
+<form action="studentdetail.php" method="post">
+	
+	
+	<h1 style="text-align: left;">LOGIN PAGE</h1>
+	<tr>
+		<th><label for="registerno"> Register no:-</label></th>
+	<th><input type="number" id="registerno" name="registerno"></th><br>
+	</tr>
+	<tr>
+	<th><label for="password"> Password</label></th>
+	<th><input type="password" id="password" name="password"></th><br>
+	<br><th><input type="submit" name="submit"></th></tr><br>
+	<tr>
+		<th><h3>New user? <a href="http://localhost/placement/registration.php"> sign up here</th>
+	</tr>
+</form></table>
+
+<img src="place.jpg" class="image" width="700" height="270">
+
+</body>
+</html>
